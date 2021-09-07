@@ -29,7 +29,7 @@ Refer to the [link](http://164.100.140.64/arcgis/rest/services/OdishaNIC/MapServ
  The respective Map Server links mentioned above was used to extract the boundary files on QGIS. The steps taken to extract the boundary files from the Map Server link are as follows:
     
    * OGIS 3.18 has been used. Open QGIS on your system and create a new project.
-   * On the left-hand lide of the screen, the Browser side bar contains ArcGIS REST Servers. Right click on it.
+   * On the left-hand side of the screen, the Browser side bar contains ArcGIS REST Servers. Right click on it.
    * A drop-down menu appears, now select "New Connection" from the drop down menu. A pop-up window would appear with the heading "Create a New ArcGIS REST ServerConnection".
    * In the Connection Details of the pop-up window, write the Name in which you want to save the files and in the URL section, enter the Map Server link. Then Click "OK" in the bottom right of the pop-up window.
    * You would now be able to see the name in which you saved the file under ArcGIS REST Servers and from there you can use the boundary files and it will get loaded on the QGIS.
