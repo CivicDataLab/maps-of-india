@@ -22,7 +22,19 @@ Refer to the [link](http://164.100.140.64/arcgis/rest/services/OdishaNIC/MapServ
           * [Parliamentary Constituency_Boundary](http://164.100.140.64/arcgis/rest/services/OdishaNIC/MapServer/14)
 
 ## Folders
-  The "Odisha Boundary" folder contains two folders namely "Administraive Boundary" and "Political Boundary". The administrative boundary folder contains the State, District, Block, Gram Panchayat (GP) and Village Boundary in GeoJSON format. These boundaries are as per the Census of India, 2011. Further, the political boundary folder contains the Assembly Constituency (AC) and Parliamentary Constituency (PC) boundaries in GeoJSON format.
+  The "Odisha Boundary" folder contains two folders namely "Administraive Boundary" and "Political Boundary". The administrative boundary folder contains the State, District, Block, Gram Panchayat (GP) and Village Boundary. These boundaries are as per the Census of India, 2011. Further, the political boundary folder contains the Assembly Constituency (AC) and Parliamentary Constituency (PC) boundaries.
+  
+## Format 
+  This Repository contains Geospatial Data in [GeoJSON Format](https://en.wikipedia.org/wiki/GeoJSON), which is an open standard format designed for representing simple geographical features.
+  
+  In case you need this data in shp or KML, or any one of the myrid Vector formats, you could use Gdal's ogr2ogr tool to convert these GeoJSON to your prefered format. This can be done by the following commands:
+
+```ogr2ogr -f shp <output name>.geojson <input name>.geojson``` 
+
+```ogr2ogr -f KML <output name>.kml <input name>.geojson``` 
+
+```ogr2ogr -f LIBKML <output name>.kmz <input name>.geojson```
+
   
 ## Saving it using QGIS
  
