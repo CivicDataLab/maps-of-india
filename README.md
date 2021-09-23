@@ -10,6 +10,8 @@ This repository contains state-wise folders containing important geographic boun
     |-- odisha/
     |   |-- administrative_boundary/
     |   |-- political_boundary/
+    |   |-- natural_resources_boundary/
+    |   |-- transport/
     |-- bihar/
     |   |-- administrative_boundary/  
     |   |-- political_boundary/                     
