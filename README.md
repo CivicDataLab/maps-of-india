@@ -41,10 +41,8 @@ Go to project Directory
 ```bash
 cd maps-of-india
 ```
-Install dependencies
-```
-$ pip install notebook
-```
+
+
 
 ### Issue Reporting
 
