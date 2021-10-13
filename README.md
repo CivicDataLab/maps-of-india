@@ -1,7 +1,7 @@
 # maps-of-india
 
 ### Description
-This repository contains state-wise folders containing important geographic boundary including but not limited to the administrative and political boundaries.
+This repository contains state-wise folders containing important geographic boundary including but not limited to the administrative, political and natural resources boundary files extracted from their respective state geo-portal.
 
 ### Directory Structure
 
@@ -12,15 +12,15 @@ This repository contains state-wise folders containing important geographic boun
     |   |-- political_boundary/
     |   |-- natural_resources_boundary/
     |   |-- transport/
+    |   |-- README.md/
     |-- bihar/
     |   |-- administrative_boundary/  
     |   |-- political_boundary/                     
+    |   |-- README.md/
     |-- jharkhand/                   
     |   |-- administrative_boundary/  
     |   |-- political_boundary/              
-    |-- chhatitsgarh       
-    |   |-- administrative_boundary/  
-    |   |-- political_boundary/
+    |   |-- README.md/  
     |-- README.md/
 
 ### Dependencies
